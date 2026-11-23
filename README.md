@@ -36,7 +36,7 @@ BFE の機体「透」を、BSX の自機として使えるようにする MOD �
 
 ### 既知の不具合
 
-* メガ・ブーストアッパーのヒット数が原作と違う。
+* 現在わかっている不具合はありません。
 * 不具合を見つけたら、[Issues](../../issues) で教えてください（どの武装で、地上・空中のどちらで出したか、可能なら動画）。
 
 ### 移植内容
@@ -129,7 +129,7 @@ Power, minimum damage, element and EX cancel timing for every weapon are listed 
 
 ### Known issues
 
-* Mega Boost Upper's hit count differs from BFE.
+* There are no known issues at the moment.
 * If you find a bug, please report it in [Issues](../../issues) (which weapon, whether used on the ground or in the air, and a video if possible).
 
 ### What was ported
