@@ -53,7 +53,7 @@ BFE の機体「透」を、BSX の自機として使えるようにする MOD �
 
 * ブーストダッシュ: BFE には無いため、回避（ドッジ）用のアクションとして新しく追加しました。
 * ノーマルダッシュ: BFE のダッシュは速いため、BSX の通常移動として扱える速さにしています。
-* サーチダッシュ: 溜めなしですぐ最高速になり、とても速くしています。原作の上位プレイヤーが使っていた高速サーチダッシュ（バグ技）を再現するためです。
+* サーチダッシュ: 溜めなしですぐ最高速になり、とても速くしています。原作の上位プレイヤーが使っていた高速ダッシュ（バグ技）を再現するためです。
 
 **ダメージ**
 
@@ -142,7 +142,7 @@ Almost everything is ported as it is in BFE; only some parts are deliberately tu
 
 * Boost dash: BFE has none, so it was added as a new dodge action.
 * Normal dash: BFE's dash is fast, so it was set to a speed that works as BSX's regular movement.
-* Search dash: reaches full speed immediately and is very fast, to reproduce the high-speed search dash (a bug technique used by top BFE players).
+* Search dash: reaches full speed immediately and is very fast, to reproduce the high-speed dash (a bug technique used by top BFE players).
 
 **Damage**
 
