@@ -37,7 +37,6 @@ BFE の機体「透」を、BSX の自機として使えるようにする MOD �
 ### 既知の不具合
 
 * 現在わかっている不具合はありません。
-* 不具合を見つけたら、[Issues](../../issues) で教えてください（どの武装で、地上・空中のどちらで出したか、可能なら動画）。
 
 ### 移植内容
 
@@ -61,13 +60,13 @@ BFE の機体「透」を、BSX の自機として使えるようにする MOD �
 **ダメージ**
 
 * 通常武装: 最低値（コンボ後半でダメージが下がりきったときの下限）を、技ごとの役割を原作から保ったまま計算し直しています。目安は、イニシャライザを使う前は原作よりわずかに弱く、イニシャライザを挟んだコンボ全体では原作の約 2 倍です。
-* FC（必殺技）: イニシャライザを使ったコンボを控えめにする代わりに、FC が強い機体にしています。FC は補正なしで全段当てたときの合計が 1000 前後になるように威力を上げ、最低値は原則として表示威力の 60% にしています（T・K・O・キャノンブレイカー・エクスカリバーは 100%、インペリアルファイナル・集束波動砲・ジェノサイド・ショットガンは 80%）。
+* FC（必殺技）: イニシャライザを使ったコンボを控えめにする代わりに、FC が強い機体にしています。
 * 連射系（火炎放射器・ガトリング砲など）: 素で全弾当てたときの強さは保ち、補正がかかりきったコンボ後半でだけ弱くなるようにしています。
 * 個別の値は [武装一覧](weapon_list_ja.md) を見てください。
 
 **EX キャンセル**
 
-* 41 の技に、EX キャンセルできるタイミングを設定しています。タイミングは武装一覧に載せています。
+* 多くの技に、EX キャンセルできるタイミングを設定しています。タイミングは武装一覧に載せています。
 
 **早期廃熱**
 
@@ -75,7 +74,7 @@ BFE の機体「透」を、BSX の自機として使えるようにする MOD �
 
 **装甲**
 
-* 地上で出した近接技の多くと一部の射撃に、出してから最後の攻撃判定までの装甲を付けています。
+* 地上で出した近接技の多くと一部の射撃に、出してから最後の攻撃判定までの装甲を付けています。甲より武装が少ないぶん、コンボの選択肢を増やすためです。
 
 **動き・見た目を変えた主な武装**
 
@@ -85,7 +84,7 @@ BFE の機体「透」を、BSX の自機として使えるようにする MOD �
 | ギャラクティックストライク | 空中でも飛び上がる。攻撃ボタンを離すと溜めを終える。飛び上がりの前進と降下を速く |
 | クラッシュハンマー | 高いところから出しても、着地するまで落ちてから攻撃する |
 | スライディングキック | 空中で出すと、甲と同じ角度で斜め下へ落ちながら蹴る |
-| スウィングワイヤー | 慣性が残り、空中で使える動きにした（甲を参考） |
+| スウィングワイヤー | 慣性が残り、空中で使える動きにした（甲を参考）。空中で出すと上昇する |
 | シールド | ダッシュ中に出すと甲のように滑る |
 | サテライトレーザー | 1 本目を敵の真上に落とし、ビームが甲と同じく敵に乗る |
 | ガトリングビット・レーザービット | 敵の近くを回り、敵の高さに合わせて動く |
@@ -130,7 +129,6 @@ Power, minimum damage, element and EX cancel timing for every weapon are listed 
 ### Known issues
 
 * There are no known issues at the moment.
-* If you find a bug, please report it in [Issues](../../issues) (which weapon, whether used on the ground or in the air, and a video if possible).
 
 ### What was ported
 
@@ -154,13 +152,13 @@ Almost everything is ported as it is in BFE; only some parts are deliberately tu
 **Damage**
 
 * Normal weapons: the minimum damage (the floor reached late in a combo) is recalculated while keeping each move's role from BFE. As a guide, before using the Initializer the damage is slightly below BFE, and a full combo with the Initializer does about 2x BFE.
-* FCs: combos with the Initializer are kept modest, and in exchange Tooru's FCs are strong. FC power is raised so that landing every hit with no scaling totals around 1000, and the minimum damage is generally 60% of the displayed power (100% for T.K.O., Cannon Breaker and Excalibur; 80% for Imperial Final, Focused Wave Cannon and Genocide Shotgun).
+* FCs: combos with the Initializer are kept modest, and in exchange Tooru's FCs are strong.
 * Rapid-fire weapons (Flamethrower, Gatling Gun, etc.): full damage when every shot lands is kept; they only get weaker late in a combo when scaling is maxed out.
 * See the [weapon list](weapon_list_ja.md) for individual values.
 
 **EX cancel**
 
-* 41 moves have EX cancel windows. The windows are in the weapon list.
+* Many moves have EX cancel windows. The windows are in the weapon list.
 
 **Early heat release**
 
@@ -168,7 +166,7 @@ Almost everything is ported as it is in BFE; only some parts are deliberately tu
 
 **Armor**
 
-* Most melee moves and a few shots used on the ground have armor from startup until their last attack.
+* Most melee moves and a few shots used on the ground have armor from startup until their last attack. Tooru has fewer weapons than Kou, so this gives more options for building combos.
 
 **Main movement and visual changes**
 
@@ -178,7 +176,7 @@ Almost everything is ported as it is in BFE; only some parts are deliberately tu
 | Galactic Strike | Also rises when used in the air. Releasing the attack button ends the charge. Faster forward rise and dive |
 | Crash Hammer | Even from high up, falls until landing before attacking |
 | Sliding Kick | In the air, kicks while falling diagonally at the same angle as Kou's |
-| Swing Wire | Keeps momentum and is usable in the air (modeled on Kou) |
+| Swing Wire | Keeps momentum and is usable in the air (modeled on Kou). Rises when used in the air |
 | Shield | Slides like Kou's when used during a dash |
 | Satellite Laser | The first beam drops right above the enemy, and beams ride on the enemy like Kou's |
 | Gatling Bit, Laser Bit | Circle close to the enemy and follow its height |
