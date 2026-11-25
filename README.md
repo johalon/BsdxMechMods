@@ -90,6 +90,9 @@ BFE の機体「透」を、BSX の自機として使えるようにする MOD �
 | マインスイーパ | 撃ち終わりの硬直も武装でキャンセルできる |
 | 月華衝・T・K・O・インペリアルファイナル・キャノンブレイカー | 演出（カメラ・暗転・スロー・拘束）を見やすく |
 | ギガンテックフィールド | 場を大きくし、敵を押し出しにくく |
+| グラビティフィールド | ボタンを押す長さで吹き飛ばしのタイミングを調整できる。吹き飛ばしの瞬間に短い無敵があり、敵の弾をはじき飛ばす |
+| 対空スプレッドボム | 横は前の勢いを残したまま、技の間は高さを保つ |
+| EPX手榴弾（FC） | 投げた瞬間に FC ゲージが約 1/3 本たまる（実質の消費は約 2/3 本） |
 | 透の弾全般 | 敵の弾に対する強さを、甲の同じ種類の弾に合わせた（下げたものはなし） |
 
 ---
@@ -179,6 +182,9 @@ Almost everything is ported as it is in BFE; only some parts are deliberately tu
 | Mine Sweeper | The recovery after firing can be canceled with a weapon |
 | Gekka-sho, T.K.O., Imperial Final, Cannon Breaker | Clearer presentation (camera, darkening, slow motion, hold) |
 | Gigantic Field | Bigger field that pushes enemies out less |
+| Gravity Field | How long you hold the button sets when the blast goes off. Brief invincibility at the blast, which also knocks enemy shots away |
+| Anti-Air Spread Bomb | Keeps your horizontal momentum while holding your height during the move |
+| EPX Grenade (FC) | Adds about 1/3 of an FC gauge bar when thrown (so it effectively costs about 2/3 of a bar) |
 | Tooru's shots in general | Strength against enemy shots matches Kou's shots of the same kind (none lowered) |
 
 ---
